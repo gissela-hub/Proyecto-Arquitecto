@@ -60,15 +60,16 @@ footer {
 .galeria .imagenes {
     display: flex;
     justify-content: center;
-    gap: 1rem; /* espacio entre imágenes */
-    flex-wrap: wrap; /* para que se acomoden en pantallas pequeñas */
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 1000px; /* limita el ancho total de la galería */
+    margin: 0 auto; /* centra horizontalmente */
 }
 
 .galeria .imagenes img {
-    width: 10%;
-    max-width: 120px; /* no será más grande que esto */
+    width: 100px;
     height: auto;
-    margin: 0 auto;
     display: block;
     border-radius: 8px;
 }
+

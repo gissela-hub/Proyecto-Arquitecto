@@ -69,7 +69,7 @@ footer {
 .galeria .imagenes img {
     width: 20%;
     /* cambia este valor según tu gusto */
-    height: auto;
+    height: 30%;
     /* mantiene proporción *f/
     margin: 0 auto; /* centra si están en bloque */
     display: block;

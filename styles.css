@@ -42,31 +42,6 @@ section {
     border-radius: 8px;
     margin-bottom: 10px;
 }
-.galeria .imagenes {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    max-width: 1000px; /* limita el ancho total de la galería */
-    margin: 0 auto; /* centra horizontalmente */
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.galeria .imagenes img {
-    width: 100px;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-
 
 form input,
 form textarea {
@@ -81,4 +56,18 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/* ----- GALERÍA / inicio ----- */
+.galeria .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.galeria .imagenes img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}

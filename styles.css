@@ -36,17 +36,16 @@ section {
     border-radius: 8px;
 }
 
-.project img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
+.project img,
 .imagenes img {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px; /* Tamaño máximo ajustado */
+    height: auto;    /* Mantener la proporción */
     border-radius: 8px;
     margin-bottom: 10px;
+    display: block;  /* Asegura que se centren */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form input, form textarea {

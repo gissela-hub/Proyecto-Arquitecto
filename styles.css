@@ -55,22 +55,16 @@ footer {
     padding: 20px;
     text-align: center;
 }
-.galeria {
-    padding: 2rem;
-    text-align: center;
-}
-
-.imagenes {
+.galeria .imagenes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 1rem; /* espacio entre imágenes */
+    flex-wrap: wrap; /* para que se acomoden en pantallas pequeñas */
 }
 
-.imagenes img {
-    max-width: 300px;
+.galeria .imagenes img {
+    width: 300px; /* ajusta según necesites */
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px; /* opcional: bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* opcional: sombra suave */
 }
-

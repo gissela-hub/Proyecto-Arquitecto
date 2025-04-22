@@ -67,12 +67,9 @@ footer {
 }
 
 .galeria .imagenes img {
-    width: 20%;
-    /* cambia este valor según tu gusto */
-    height: 30%;
-    /* mantiene proporción *f/
-    margin: 0 auto; /* centra si están en bloque */
+    width: 15%; /* o un valor más pequeño según tu gusto */
+    height: auto; /* mantiene la proporción de la imagen */
+    margin: 0 auto;
     display: block;
-    /* ayuda a centrar con margin auto */
     border-radius: 8px;
 }

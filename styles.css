@@ -46,6 +46,10 @@ section {
     display: block;  /* Asegura que se centren */
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 form input, form textarea {

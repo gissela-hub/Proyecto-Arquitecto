@@ -43,7 +43,8 @@ section {
     margin-bottom: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -55,16 +56,23 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
 .galeria .imagenes {
     display: flex;
     justify-content: center;
-    gap: 1rem; /* espacio entre imágenes */
-    flex-wrap: wrap; /* para que se acomoden en pantallas pequeñas */
+    gap: 1rem;
+    /* espacio entre imágenes */
+    flex-wrap: wrap;
+    /* para que se acomoden en pantallas pequeñas */
 }
 
 .galeria .imagenes img {
-    width: 300px; /* ajusta según necesites */
+    width: 20px;
+    /* cambia este valor según tu gusto */
     height: auto;
-    border-radius: 8px; /* opcional: bordes redondeados */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* opcional: sombra suave */
+    /* mantiene proporción *f/
+    margin: 0 auto; /* centra si están en bloque */
+    display: block;
+    /* ayuda a centrar con margin auto */
+    border-radius: 8px;
 }

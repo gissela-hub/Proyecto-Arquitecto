@@ -50,20 +50,21 @@ section {
 /* Solo para las imágenes de la galería */
 .imagenes {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2rem; /* espacio entre imágenes */
-    flex-wrap: nowrap; /* evita que se vayan a una nueva línea */
-    overflow-x: auto;  /* permite desplazamiento horizontal si no entran */
-    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .imagenes img {
-    width: 300px; /* tamaño fijo */
+    width: 300px;
     height: auto;
     border-radius: 8px;
-    display: block;
-    object-fit: cover; /* por si quieres que se ajusten mejor */
+}
+
+.imagenes p {
+    margin: 0;
+    font-size: 1rem;
+    max-width: 200px; /* Opcional, para que no se alargue tanto */
 }
 
 form input, form textarea {

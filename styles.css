@@ -84,7 +84,7 @@ footer {
 
 /* Servicios */
 .servicios {
-    width: 300px;
+    max-width: 700px;
     margin: auto;
     background-color: #fff;
     padding: 30px;
@@ -98,7 +98,6 @@ footer {
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 20px;
-    width: 300%;
 }
 
 .servicio {
@@ -108,6 +107,7 @@ footer {
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .servicio:hover {
@@ -128,8 +128,6 @@ footer {
     margin-bottom: 10px;
     display: block;
 }
-
-
 /* Banner */
 .banner {
     background: url('img/banner.jpg') no-repeat center center;

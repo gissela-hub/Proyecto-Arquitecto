@@ -132,10 +132,10 @@ footer {
 }
 /* Banner */
 .banner {
-    background: url('img/banner.jpg') no-repeat center center;
+    background: url('img/imagen4.jpg') no-repeat center center;
     background-size: cover;
     padding: 60px 0;
-    color: white;
+    color: rgb(15, 15, 15);
     text-align: center;
 }
 

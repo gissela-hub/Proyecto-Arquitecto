@@ -105,5 +105,38 @@ footer {
     border-radius: 10px;
     width: 220px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+}
+
+.servicio h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.servicio p {
+    color: #666;
+    font-size: 1em;
+}
+
+/* Banner */
+.banner {
+    background: url('img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.2em;
 }

@@ -50,23 +50,22 @@ section {
 /* Solo para las imágenes de la galería */
 .imagenes {
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+    text-align: center;
 }
 
-.imagenes img {
+.proyecto {
     width: 300px;
+}
+
+.proyecto img {
+    width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
 }
-
-.imagenes p {
-    margin: 0;
-    font-size: 1rem;
-    max-width: 200px; /* Opcional, para que no se alargue tanto */
-}
-
 form input, form textarea {
     width: 100%;
     padding: 10px;

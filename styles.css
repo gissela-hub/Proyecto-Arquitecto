@@ -164,8 +164,6 @@ footer {
     font-size: 1.2em;
 }
 
-
-
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -192,5 +190,20 @@ footer {
     object-fit: cover;
     border-radius: 8px;
 }
+#portafolio {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
 
+#portafolio h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
 
+#portafolio .intro {
+    color: #666;
+    font-size: 16px;
+    margin: 0 auto 40px;
+    max-width: 600px;
+}

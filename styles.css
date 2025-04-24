@@ -170,9 +170,14 @@ footer {
 .banner p {
     font-size: 1.2em;
 }
+/*portafolio */
 .project img {
     width: 100%;
     max-width: 400px;
     border-radius: 8px;
     margin-bottom: 10px;
+}
+.project {
+    display: flex;
+    justify-content: center;
 }

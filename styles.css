@@ -211,28 +211,6 @@ footer {
 }
 
 
-/* Sección sobre mí */
-.about {
-    padding: 50px 20px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-container {
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    padding: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
-    background-color: #fff;
-}
-
 /* Imagen de perfil */
 .profile-img {
     width: 150%;
@@ -243,28 +221,3 @@ footer {
    
 }
 
-/* Texto */
-.about-text {
-    flex: 1;
-}
-
-.about-text h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    color: #2c3e50;
-}
-
-.about-text p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* Íconos */
-.about-text p::before {
-    content: "📌 ";
-    display: inline;
-}
-.about-text p:last-child::before {
-    content: "";
-}

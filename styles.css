@@ -84,7 +84,7 @@ footer {
 
 /* Servicios */
 .servicios {
-    max-width: 700px;
+    max-width: 900px; /* un poco más ancho para acomodar mejor las imágenes */
     margin: auto;
     background-color: #fff;
     padding: 30px;
@@ -104,14 +104,15 @@ footer {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 100%;
+    max-width: 600px; /* más ancho para imágenes grandes */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    text-align: center;
-    display: flex; /* Hacemos que la imagen y el texto estén en fila */
-    flex-direction: row; /* Dirección horizontal: imagen + texto */
-    align-items: center; /* Alinea verticalmente los elementos */
-    gap: 10px; /* Espacio entre la imagen y el texto */
+    text-align: left; /* alinear el texto a la izquierda */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px; /* más espacio entre imagen y texto */
 }
 
 .servicio:hover {
@@ -120,15 +121,22 @@ footer {
 
 .servicio h3 {
     color: #333;
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-bottom: 10px;
 }
 
 .servicio img {
-    width: 300px; /* Puedes ajustar el tamaño de la imagen */
-    height: 300px; /* Ajusta la altura si es necesario */
+    width: 200px; /* aumentamos el tamaño */
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.servicio p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.4;
 }
 /* Banner */
 .banner {

@@ -82,16 +82,25 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Servicios */
+/* Contenedor principal de Servicios */
 .servicios {
-    max-width: 900px; /* un poco más ancho para acomodar mejor las imágenes */
-    margin: auto;
+    max-width: 1100px; /* Más ancho para abrir visualmente el bloque */
+    margin: 60px auto; /* Espaciado superior e inferior */
     background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px 60px; /* Más espacio interno */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
+/* Título de la sección Servicios */
+.servicios h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+/* Contenedor de las tarjetas de servicio */
 .servicios-lista {
     display: flex;
     justify-content: center;
@@ -100,44 +109,50 @@ footer {
     margin-top: 20px;
 }
 
+/* Tarjeta individual de servicio */
 .servicio {
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
     width: 100%;
-    max-width: 600px; /* más ancho para imágenes grandes */
+    max-width: 600px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    text-align: left; /* alinear el texto a la izquierda */
+    text-align: left;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px; /* más espacio entre imagen y texto */
+    gap: 30px;
 }
 
+/* Efecto al pasar el mouse */
 .servicio:hover {
     transform: scale(1.05);
 }
 
+/* Título dentro de cada servicio */
 .servicio h3 {
     color: #333;
     font-size: 1.6em;
     margin-bottom: 10px;
 }
 
+/* Imagen de cada servicio */
 .servicio img {
-    width: 200px; /* aumentamos el tamaño */
+    width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
 }
 
+/* Texto descriptivo del servicio */
 .servicio p {
     font-size: 1em;
     color: #555;
     line-height: 1.4;
 }
+
 /* Banner */
 .banner {
     background: url('img/imagen4.jpg') no-repeat center center;
